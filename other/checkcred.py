@@ -35,6 +35,9 @@ def checkcred(username, password, database):
             line = line[:-1]
             user = line.split(":")
             users.append(user[0])
+        if len(users) == 0:
+            score = 1
+            return score
         for i in range(len(users)):
             if username == users[i]:
                 score = 0
