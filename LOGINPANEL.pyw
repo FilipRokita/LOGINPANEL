@@ -13,10 +13,10 @@ import os
 
 #def
 def log():
-    os.system("./login.pyw")
+    os.system("python3 login.pyw")
 
 def reg():
-    os.system("./register.pyw")
+    os.system("python3 register.pyw")
 
 
 
