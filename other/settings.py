@@ -1,0 +1,1 @@
+datalocation = "data/data.txt"
