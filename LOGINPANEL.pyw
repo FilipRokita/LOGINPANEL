@@ -1,5 +1,3 @@
-#figure out how to make line 17 and 20 work
-
 #LOGINPANEL
 #Filip Rokita
 #www.filiprokita.com
