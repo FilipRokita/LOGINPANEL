@@ -5,6 +5,8 @@ import hashlib
 from other.combocreator import *
 from other.checkcred import *
 from other.settings import *
+import os
+import time
 
 
 
@@ -19,7 +21,7 @@ def work():
 
     for line in f:
         if line == localcombo:
-            messagebox.showinfo(title="SUCCESS - LOGINPANEL", message="You have been logged in succesfully!")
+            os.system(succesRun)
             loginpy.destroy()
             break
     else:
